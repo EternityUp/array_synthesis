@@ -1,0 +1,11 @@
+gcc -g -std=c99 -Wall -fPIC  -c  src/fft4g.c -I ./inc/ -o src/fft4g.o
+g++ -g -std=c++11 -Wall -fPIC  -c  src/fft_transform.cpp -I ./inc/ -o src/fft_transform.o
+
+
+ld -shared src/fft4g.o src/fft_transform.o -o libs/libFourierTransform.so
+
+
+g++ demo/main.cpp -std=c++11 -I ./inc/ -L ./libs/ -Wl,-rpath=./libs/ -lFourierTransform -lm  -o fft_demo 
+
+
+

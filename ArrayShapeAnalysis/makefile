@@ -1,5 +1,5 @@
 CC       :=  g++
-CPPFLAGS   :=  -g -std=c++11 -Wall -fPIC  -c 
+CPPFLAGS :=  -g -std=c++11 -Wall -fPIC  -c 
 AR       :=  ar
 ARFLAGS  :=  crv
 LD       :=  ld
@@ -42,9 +42,11 @@ $(LIB_A):$(OBJS)
 $(OBJS):$(SRC_PATH)*.cpp
 	$(CC) $(CPPFLAGS) $^ -I $(INC_PATH) -o $@	
 
+.PHONY:clean
 clean:
 	$(RM) $(LIB_SO) $(LIB_A) $(OBJS) $(EXCS)
-	
+
+.PHONY:print	
 print:
 	@echo CPPFLAGS  = $(CPPFLAGS)
 	@echo ARFLAGS   = $(ARFLAGS)
