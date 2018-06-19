@@ -1,0 +1,8 @@
+make clean 
+make all
+make print
+
+
+./array_shape_analysis_lib_demo ./array_geometry_info/array_position_info.txt 
+
+./array_shape_analysis_lib_demo

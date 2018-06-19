@@ -1,0 +1,9 @@
+array_elements=6
+position of array_elements:
+mic    x    y    z
+mic1: 0.10 0.20 0.00
+mic2: 0.15 0.25 0.00
+mic3: 0.20 0.30 0.00
+mic4: 0.25 0.35 0.00
+mic5: 0.30 0.40 0.00
+mic6: 0.35 0.45 0.00
