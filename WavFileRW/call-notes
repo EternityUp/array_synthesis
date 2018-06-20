@@ -1,0 +1,6 @@
+./basic_signal_process_lib_demo stereo_linear.wav out_stereo_linear.wav
+
+
+notes:
+CPPFLAGS = -g -std=c++11 -DWEBRTC_ARCH_LITTLE_ENDIAN -Wall      -fPIC -fno-use-cxa-atexit        -c
+
