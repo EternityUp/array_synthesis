@@ -20,8 +20,8 @@ extern "C" {
 #define AMY_AUDIO_API
 #endif
 
-#include <stdlib.h>
-#include "basic_processing_parameters.h"
+#include <stddef.h>
+#include <stdint.h>
 
 #define MAX_LIMITS_INT16  32767
 #define MIN_LIMITS_INT16  -32768

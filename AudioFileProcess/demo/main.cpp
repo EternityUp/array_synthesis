@@ -1,7 +1,8 @@
 #include <iostream>
-#include <stdio.h>
 #include <string.h>
+#include "basic_processing_parameters.h"
 #include "audio_file_process.h"
+#include <stdio.h>
 
 int main(int argc, char **argv) {
     using std::cout;
