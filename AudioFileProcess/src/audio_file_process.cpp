@@ -160,25 +160,25 @@ AMY_AUDIO_API void FloatToInt16_t(const float *src, size_t size, int16_t *dest) 
 }
 
 
-void Deinterleave(const float *interleaved, float **deinterleaved) {
-    for (size_t i = 0; i < kNumChannels; ++i) {
+void Deinterleave(const float *interleaved, float **deinterleaved, size_t channels, size_t len) {
+    for (size_t i = 0; i < channels; ++i) {
         float *channel = deinterleaved[i];
         size_t interleaved_idx = i;
-        for (size_t j = 0; j < kFrameLen; ++j) {
+        for (size_t j = 0; j < len; ++j) {
             channel[j] = interleaved[interleaved_idx];
-            interleaved_idx += kNumChannels;
+            interleaved_idx += channels;
         }
     }
 }
 
 
-void Interleave(float **deinterleaved, float *interleaved) {
-    for (size_t i = 0; i < kNumChannels; ++i) {
+void Interleave(float **deinterleaved, float *interleaved, size_t channels, size_t len) {
+    for (size_t i = 0; i < channels; ++i) {
         const float *channel = deinterleaved[i];
         size_t interleaved_idx = i;
-        for (size_t j = 0; j < kFrameLen; ++j) {
+        for (size_t j = 0; j < len; ++j) {
             interleaved[interleaved_idx] = channel[j];
-            interleaved_idx += kNumChannels;
+            interleaved_idx += channels;
         }
     }
 }

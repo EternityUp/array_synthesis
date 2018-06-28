@@ -44,9 +44,9 @@ AMY_AUDIO_API void Int16_tToFloat(const int16_t *src, size_t size, float *dest);
 
 AMY_AUDIO_API void FloatToInt16_t(const float *src, size_t size, int16_t *dest);
 
-AMY_AUDIO_API void Deinterleave(const float *interleaved, float **deinterleaved);
+AMY_AUDIO_API void Deinterleave(const float *interleaved, float **deinterleaved, size_t channels, size_t len);
 
-AMY_AUDIO_API void Interleave(float **deinterleaved, float *interleaved);
+AMY_AUDIO_API void Interleave(float **deinterleaved, float *interleaved, size_t channels, size_t len);
 
 AMY_AUDIO_API void AddFrames(float *buffer, float *block,
                              int buffer_start_ind, int block_start_ind, int len);

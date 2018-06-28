@@ -1,0 +1,8 @@
+为了避免出现无法链接动态链接库的问题，需要设置全局变量LD_LIBRARY_PATH，使得其值指向需要链接的动态链接库的路径
+如：
+export LD_LIBRARY_PATH=/home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess/libs:$LD_LIBRARY_PATH
+
+
+然后再正确执行可执行程序，如
+./real_time_audio_process_demo default
+

@@ -45,12 +45,12 @@ int main(int argc, char **argv) {
             return -1;
         }
         Int16_tToFloat(frame_buf_int16, read_size, frame_buf_float);
-        Deinterleave(frame_buf_float, in_multi_chs_buf);
+        Deinterleave(frame_buf_float, in_multi_chs_buf, kNumChannels, kFrameLen);
 
         for (int j = 0; j < kNumChannels; j++)
             memcpy(out_multi_chs_buf[j], in_multi_chs_buf[j], sizeof(float) * read_size / kNumChannels);
 
-        Interleave(out_multi_chs_buf, out_frame_buf_float);
+        Interleave(out_multi_chs_buf, out_frame_buf_float, kNumChannels, kFrameLen);
         FloatToInt16_t(out_frame_buf_float, read_size, out_frame_buf_int16);
         write_size = fwrite(out_frame_buf_int16, sizeof(int16_t), read_size, out_fp);
         if (write_size < 0) {
