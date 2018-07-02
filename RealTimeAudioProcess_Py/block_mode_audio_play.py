@@ -24,7 +24,7 @@ data = wf.readframes(CHUNK)
 
 # play stream
 while len(data) > 0:
-    stream.stop_stream()
+    stream.write(data)
     data = wf.readframes(CHUNK)
 
 # stop stream
