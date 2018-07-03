@@ -4,7 +4,7 @@ CPPFLAGS :=  -g -std=c++11 -DWEBRTC_ARCH_LITTLE_ENDIAN -Wall -fPIC -c
 AR       :=  ar
 ARFLAGS  :=  crv
 LD       :=  ld
-LDFLAGS  :=  -shared
+LDFLAGS  :=  -shared -lm -lstdc++
 RM       :=  rm -f 
 
 SRC_PATH  = ./src/

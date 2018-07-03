@@ -1,0 +1,47 @@
+export LD_LIBRARY_PATH=/home/xzc/git_hub/array_process_synthesis/Synthesis_Lib_mode/libs:$LD_LIBRARY_PATH
+
+如果不执行上述添加库搜寻路径的环境变量设置语句，执行ldd -r libArrayProcessSynthesis.so会出现以下结果：
+linux-vdso.so.1 =>  (0x00007ffdbbfbd000)
+	libArrayShapeAnalysis.so => not found
+	libAudioFileProcess.so => not found
+	libFourierTransform.so => not found
+	libBasicSignalProcess.so => not found
+	libWavFileRW.so => not found
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fc858523000)
+	libstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fc8581a1000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fc857dd7000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fc858b66000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fc857bc1000)
+undefined symbol: ComputeLogEnergyEntropyRatio	(./libArrayProcessSynthesis.so)
+undefined symbol: ComputeIntervalAverage	(./libArrayProcessSynthesis.so)
+undefined symbol: _Z24ConstructComplexSpectrumPSt7complexIfEPfS2_i	(./libArrayProcessSynthesis.so)
+undefined symbol: Exponential_Integral_Ei_vector	(./libArrayProcessSynthesis.so)
+undefined symbol: ScaleVector	(./libArrayProcessSynthesis.so)
+undefined symbol: InputBufferRead	(./libArrayProcessSynthesis.so)
+undefined symbol: Smooth1Ddata	(./libArrayProcessSynthesis.so)
+undefined symbol: ComputeElemetsSoundPath	(./libArrayProcessSynthesis.so)
+undefined symbol: _Z12FftTransformPKfPSt7complexIfEm	(./libArrayProcessSynthesis.so)
+undefined symbol: OutputSamplesAndUpdateBuffer	(./libArrayProcessSynthesis.so)
+undefined symbol: KaiserBesselDerived	(./libArrayProcessSynthesis.so)
+undefined symbol: VectorNorm	(./libArrayProcessSynthesis.so)
+undefined symbol: InputBufferWrite	(./libArrayProcessSynthesis.so)
+undefined symbol: _Z15InvFftTransformPKSt7complexIfEPfm	(./libArrayProcessSynthesis.so)
+undefined symbol: Hanning	(./libArrayProcessSynthesis.so)
+undefined symbol: MoveReadPositionBackward	(./libArrayProcessSynthesis.so)
+undefined symbol: AddFrames	(./libArrayProcessSynthesis.so)
+undefined symbol: ApplyWindow1D	(./libArrayProcessSynthesis.so)
+
+
+添加设置环境变量的语句后，再次执行相同语句，结果如下：
+linux-vdso.so.1 =>  (0x00007ffd2b191000)
+	libArrayShapeAnalysis.so => /home/xzc/git_hub/array_process_synthesis/Synthesis_Lib_mode/libs/libArrayShapeAnalysis.so (0x00007f4dabad4000)
+	libAudioFileProcess.so => /home/xzc/git_hub/array_process_synthesis/Synthesis_Lib_mode/libs/libAudioFileProcess.so (0x00007f4dab8d2000)
+	libFourierTransform.so => /home/xzc/git_hub/array_process_synthesis/Synthesis_Lib_mode/libs/libFourierTransform.so (0x00007f4dab6cc000)
+	libBasicSignalProcess.so => /home/xzc/git_hub/array_process_synthesis/Synthesis_Lib_mode/libs/libBasicSignalProcess.so (0x00007f4dab4c8000)
+	libWavFileRW.so => /home/xzc/git_hub/array_process_synthesis/Synthesis_Lib_mode/libs/libWavFileRW.so (0x00007f4dab2c2000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f4daafb9000)
+	libstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f4daac37000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f4daa86d000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f4dac011000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f4daa657000)
+

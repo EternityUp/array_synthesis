@@ -1,3 +1,6 @@
+export LD_LIBRARY_PATH=/home/xzc/git_hub/array_process_synthesis/Synthesis/libs:$LD_LIBRARY_PATH
+
+
 ./synthesis_demo 0 multi_chs_stereo.pcm multi_chs_ns_stereo.pcm
 
 ./synthesis_demo 1 multi_chs_stereo.pcm single_ch_out_stereo.pcm 

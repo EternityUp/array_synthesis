@@ -39,6 +39,14 @@ enum WavFormat {
     kWavFormatMuLaw = 7,  // 8-bit ITU-T G.711 mu-law
 };
 
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif /* __cplusplus*/
+
+
+
 // Return true if the given parameters will make a welled WAV header.
 bool CheckWavParameters(size_t num_channels,
                         int samle_rate,
@@ -68,6 +76,11 @@ bool ReadWavHeader(ReadableWav *readable,
                    size_t *num_samples);
 
 
+#ifdef __cplusplus
+}
+#endif /* __cplusplus*/
+
+
 void FloatS16ToS16(const float *src, size_t size, int16_t *dest);
 
 static inline int16_t FloatS16ToS16(float v) {
@@ -78,6 +91,11 @@ static inline int16_t FloatS16ToS16(float v) {
                               : static_cast<int16_t>(v + 0.5f);
     return v <= kMinRound ? std::numeric_limits<int16_t>::min() : static_cast<int16_t>(v - 0.5f);
 }
+
+
+
+
+
 
 
 #endif

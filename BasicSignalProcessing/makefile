@@ -1,9 +1,9 @@
 CC       :=  g++
-CPPFLAGS :=  -g -std=c++11 -Wall -fPIC  -c 
+CPPFLAGS :=  -g -std=c++11 -Wall -fPIC  -c  
 AR       :=  ar
 ARFLAGS  :=  crv
 LD       :=  ld
-LDFLAGS  :=  -shared
+LDFLAGS  :=  -shared -lm -lstdc++
 RM       :=  rm -f 
 
 SRC_PATH  = ./src/

@@ -17,7 +17,7 @@ LIB_SO   := $(LIBS_DIR)libAudioFileProcess.so
 LIB_A    := $(LIBS_DIR)libAudioFileProcess.a
 EXCS     := audio_file_process_lib_demo
 
-LINKFLAGS := -g -std=c++11 -I /home/xzc/eigen3.3.4 -I ./inc/ -L $(LIBS_DIR) -Wl,-rpath=$(LIBS_DIR) -lAudioFileProcess -lm 
+LINKFLAGS := -g -std=c++11 -I /home/xzc/eigen3.3.4 -I ./inc/ -L $(LIBS_DIR) -Wl,-rpath=$(LIBS_DIR) -lAudioFileProcess 
 
 
 

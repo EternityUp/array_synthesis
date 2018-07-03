@@ -3,7 +3,6 @@ import sys
 import pyaudio
 import speech_recognition as sr
 import wave
-import time
 import threading
 
 

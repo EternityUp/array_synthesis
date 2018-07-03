@@ -1,0 +1,13 @@
+
+
+./synthesis_lib_demo 0 multi_chs_stereo.pcm multi_chs_ns_stereo.pcm
+
+./synthesis_lib_demo 1 multi_chs_stereo.pcm single_ch_out_stereo.pcm 
+
+
+./synthesis_lib_demo 2 xmos_record1_chs4.wav xmos_record1_chs4_out.wav 
+
+
+./synthesis_lib_demo 2 xmos_record2_chs4.wav xmos_record2_chs4_out.wav 
+
+
