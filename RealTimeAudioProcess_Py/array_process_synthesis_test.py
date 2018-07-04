@@ -6,6 +6,7 @@ from ctypes import *
 import os
 import sys
 import numpy as np
+from array_synthesis_definitions import *
 
 env_dist = os.environ
 
@@ -43,20 +44,6 @@ multi_chs_frame_len = single_ch_frame_len * num_channels
 Int16_tToFloat = lib2.Int16_tToFloat
 Int16_tToFloat.restype = None
 process_core = lib.ProcCoreMicArrayProcSingleOut
-
-# 定义各类待处理的结构体类型
-class Mic_Array_Process_Inst(Structure):
-    _fields_ = []
-
-
-
-
-
-
-
-
-
-
 
 float_audio_data = np.asarray(np.zeros((multi_chs_frame_len, 1)), dtype=np.float32)
 float_audio_data_ptr = cast(float_audio_data.ctypes.data, POINTER(c_float))
