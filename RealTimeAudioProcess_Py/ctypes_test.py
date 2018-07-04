@@ -122,6 +122,7 @@ print Int.second_16
 
 TenPointsArrayType = POINT * 10
 
+
 class MyStruct(Structure):
     _fields_ = [("a", c_int),
                 ("b", c_float),
@@ -166,6 +167,7 @@ null_ptr = POINTER(c_int)()
 print bool(null_ptr)
 # null_ptr[0] = 1     # ValueError: NULL pointer access
 
+
 class Bar(Structure):
     _fields_ = [("count", c_int),
                 ("values", POINTER(c_int))]
@@ -181,7 +183,6 @@ for i in range(bar.count):
 bar = Bar()
 bar.values = cast((c_byte * 4)(), POINTER(c_int))
 print bar.values[0]
-
 
 
 IntArray5 = c_int * 5

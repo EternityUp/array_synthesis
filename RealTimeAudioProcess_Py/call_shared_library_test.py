@@ -4,7 +4,7 @@
 from ctypes import *
 import os
 import sys
-
+import numpy as np
 
 env_dist = os.environ
 print type(env_dist)
@@ -13,7 +13,6 @@ print env_dist
 # 打印所有环境变量，遍历字典
 for key in env_dist:
     print key + ' : ' + env_dist[key]
-
 
 if 'LD_LIBRARY_PATH' not in os.environ:
     os.environ['LD_LIBRARY_PATH'] = os.getcwd() + u"/libs/"
