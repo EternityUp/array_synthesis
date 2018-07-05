@@ -1,0 +1,3 @@
+/usr/lib/libinverter.so
+/home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/swig_array_process/swig-eigen-numpy-master/python/pyinverter/_inverter_wrapper.so
+/home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/swig_array_process/swig-eigen-numpy-master/python/pyinverter/inverter_wrapper.py

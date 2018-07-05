@@ -1,8 +1,10 @@
 # -*- encoding=utf-8 -*-
 
 from ctypes import *
+import eigen
 
-ColVectorXf = POINTER(c_float)
+
+ColVectorXf = eigen.Vec
 
 print ColVectorXf(), ColVectorXf
 

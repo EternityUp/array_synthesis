@@ -1,0 +1,6 @@
+/home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/swig_array_process/swig-eigen-numpy-master/python/inverter_wrapperPYTHON_wrap.cxx: \
+  /home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/swig_array_process/swig-eigen-numpy-master/python/inverter_wrapper.i \
+  /home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/swig_array_process/swig-eigen-numpy-master/python/../swigmake/swig/python/pycontainer.swg \
+  /home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/swig_array_process/swig-eigen-numpy-master/python/../swigmake/swig/python/eigen.i \
+  /home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/swig_array_process/swig-eigen-numpy-master/python/../swigmake/swig/python/numpy.i \
+  /home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/swig_array_process/swig-eigen-numpy-master/python/../src/inverter.hpp 

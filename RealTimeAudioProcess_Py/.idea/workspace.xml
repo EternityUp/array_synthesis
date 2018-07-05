@@ -14,11 +14,15 @@
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$audio_recorder_wrapper.coverage" NAME="audio_recorder_wrapper Coverage Results" MODIFIED="1530512308020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$ctypes_pointer.coverage" NAME="ctypes_pointer Coverage Results" MODIFIED="1530699676411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$record_to_wav_file.coverage" NAME="record_to_wav_file Coverage Results" MODIFIED="1530514148188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$test_eigen_types.coverage" NAME="test_eigen_types Coverage Results" MODIFIED="1530788833332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$callback_mode_audio_play.coverage" NAME="callback_mode_audio_play Coverage Results" MODIFIED="1530503073416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$real_time_audio_record.coverage" NAME="real_time_audio_record Coverage Results" MODIFIED="1530501843148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$python_call_eigen.coverage" NAME="python_call_eigen Coverage Results" MODIFIED="1530784241750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$sound_card_info.coverage" NAME="sound_card_info Coverage Results" MODIFIED="1530501473635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$wave_module_info.coverage" NAME="wave_module_info Coverage Results" MODIFIED="1530514827343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$array_synthesis_definitions.coverage" NAME="array_synthesis_definitions Coverage Results" MODIFIED="1530761057126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$call_shared_library_test.coverage" NAME="call_shared_library_test Coverage Results" MODIFIED="1530682530329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$test_inverter.coverage" NAME="test_inverter Coverage Results" MODIFIED="1530783425341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$real_time_audio_process_recognition.coverage" NAME="real_time_audio_process_recognition Coverage Results" MODIFIED="1530526173170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$array_process_synthesis_test.coverage" NAME="array_process_synthesis_test Coverage Results" MODIFIED="1530700237909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$block_mode_audio_play.coverage" NAME="block_mode_audio_play Coverage Results" MODIFIED="1530682908654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -27,35 +31,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="array_process_synthesis_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/array_process_synthesis_test.py">
+      <file leaf-file-name="test_eigen_types.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_eigen_types.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="550">
+              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
               <folding>
-                <element signature="e#49#60#0" expanded="true" />
+                <element signature="e#24#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ctypes_pointer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctypes_pointer.py">
+      <file leaf-file-name="python_call_eigen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_call_eigen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2603">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="133">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
-                <element signature="e#49#60#0" expanded="true" />
+                <element signature="e#26#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ctypes_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctypes_test.py">
+      <file leaf-file-name="test_inverter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_inverter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3268">
-              <caret line="172" column="43" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
+            <state relative-caret-position="513">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +98,10 @@
         <option value="$PROJECT_DIR$/ctypes_test.py" />
         <option value="$PROJECT_DIR$/ctypes_pointer.py" />
         <option value="$PROJECT_DIR$/array_process_synthesis_test.py" />
+        <option value="$PROJECT_DIR$/array_synthesis_definitions.py" />
+        <option value="$PROJECT_DIR$/python_call_eigen.py" />
+        <option value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/pyinverter/test_eigen_types.py" />
+        <option value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_eigen_types.py" />
       </list>
     </option>
   </component>
@@ -104,10 +115,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="533" />
-    <option name="y" value="39" />
-    <option name="width" value="1849" />
-    <option name="height" value="1054" />
+    <option name="x" value="828" />
+    <option name="y" value="88" />
+    <option name="width" value="1847" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -131,9 +142,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -150,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.array_process_synthesis_test">
+  <component name="RunManager" selected="Python.test_eigen_types">
     <configuration name="array_process_synthesis_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RealTimeAudioProcess_Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +184,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="block_mode_audio_play" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="array_synthesis_definitions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RealTimeAudioProcess_Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,32 +197,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/block_mode_audio_play.py" />
-      <option name="PARAMETERS" value="327_16.wav" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="call_shared_library_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="RealTimeAudioProcess_Py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/call_shared_library_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_synthesis_definitions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ctypes_pointer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="python_call_eigen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RealTimeAudioProcess_Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,13 +216,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctypes_pointer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_call_eigen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ctypes_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_eigen_types" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RealTimeAudioProcess_Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,31 +230,50 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctypes_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_eigen_types.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_inverter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RealTimeAudioProcess_Py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_inverter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.ctypes_test" />
-      <item itemvalue="Python.call_shared_library_test" />
       <item itemvalue="Python.array_process_synthesis_test" />
-      <item itemvalue="Python.block_mode_audio_play" />
-      <item itemvalue="Python.ctypes_pointer" />
+      <item itemvalue="Python.python_call_eigen" />
+      <item itemvalue="Python.array_synthesis_definitions" />
+      <item itemvalue="Python.test_inverter" />
+      <item itemvalue="Python.test_eigen_types" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_eigen_types" />
+        <item itemvalue="Python.python_call_eigen" />
+        <item itemvalue="Python.test_inverter" />
+        <item itemvalue="Python.array_synthesis_definitions" />
         <item itemvalue="Python.array_process_synthesis_test" />
-        <item itemvalue="Python.ctypes_pointer" />
-        <item itemvalue="Python.block_mode_audio_play" />
-        <item itemvalue="Python.call_shared_library_test" />
-        <item itemvalue="Python.ctypes_test" />
       </list>
     </recent_temporary>
   </component>
@@ -283,15 +297,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29856852" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3425358" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.30674848" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24851751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24851751" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -303,9 +318,9 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,74 +338,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/call_shared_library_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array_process_synthesis_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block_mode_audio_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/ctypes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6570">
-          <caret line="365" selection-start-line="365" selection-end-line="365" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call_shared_library_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array_process_synthesis_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block_mode_audio_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/ctypes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6570">
-          <caret line="365" selection-start-line="365" selection-end-line="365" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call_shared_library_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block_mode_audio_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/ctypes/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6570">
@@ -402,9 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -415,9 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,9 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,9 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/real_time_audio_process_recognition_no_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/UserDict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -644,27 +569,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ctypes_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3268">
+        <state relative-caret-position="819">
           <caret line="172" column="43" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ctypes_pointer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2603">
+        <state relative-caret-position="819">
           <caret line="137" selection-start-line="137" selection-end-line="137" />
-          <folding>
-            <element signature="e#49#60#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/encodings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1247972723/eigen/eigen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="2348" column="8" selection-start-line="2348" selection-start-column="8" selection-end-line="2348" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/real_time_audio_process_recognition_no_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/array_process_synthesis_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="342">
+          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_synthesis_definitions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/pyinverter/inverter_wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/inverter_wrapper.i">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_inverter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
-            <element signature="e#49#60#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_call_eigen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#26#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/eigen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_eigen_types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
