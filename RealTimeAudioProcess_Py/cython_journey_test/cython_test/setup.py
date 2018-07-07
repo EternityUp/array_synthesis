@@ -4,13 +4,13 @@ from Cython.Distutils import build_ext
 
 
 setup(
-   name = 'Demos',
+   name='Demos',
    ext_modules=[
       Extension("test",
-	         sources=["test.pyx", "cpp_test.cpp"],
-	         language="c++"),
+                sources=["test.pyx", "cpp_test.cpp"],
+                language="c++"),
    ],
-   cmdclass = {'build_ext':build_ext},
+   cmdclass={'build_ext':build_ext},
 )
 
 

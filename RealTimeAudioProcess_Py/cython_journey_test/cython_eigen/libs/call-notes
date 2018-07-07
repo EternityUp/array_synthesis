@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=/home/xzc/git_hub/array_process_synthesis/RealTimeAudioProcess_Py/cython_journey_test/cython_eigen/libs:$LD_LIBRARY_PATH
