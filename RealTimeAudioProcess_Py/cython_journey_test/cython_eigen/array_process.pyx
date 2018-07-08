@@ -1,4 +1,5 @@
-import numpy as np
+cimport numpy as np
+import ctypes
 
 cdef extern from "./inc/array_process_wrapper.h":
     cdef cppclass ArrayProcessSynthesis:
@@ -7,8 +8,10 @@ cdef extern from "./inc/array_process_wrapper.h":
         void InitMicArray()
         void SetParas()
         void ValidateParas()
-        void ArrayProcessCore(float **in_multi_chs_data, float *out_single_ch_data)
-        void FreeProcInst();
+        void ArrayProcessCore(float *in_multi_chs_data, float *out_single_ch_data)
+        void FreeProcInst()
+        float **in_chs_audio_data
+        float *out_ch_audio_data
 
 
 cdef class pyArrayProcessSynthesis:
@@ -30,10 +33,8 @@ cdef class pyArrayProcessSynthesis:
   def PyValidateParas(self):
       self.thisptr.ValidateParas()
 
-  def PyArrayProcessCore(self, in_multi_chs_audio, out_single_ch_audio):
-      cdef float **in_multi_chs_data
-      cdef float *out_single_ch_data
-      self.thisptr.ArrayProcessCore(in_multi_chs_data, out_single_ch_data)
+  def PyArrayProcessCore(self, np.ndarray[np.float32_t, ndim=2] in_audio, np.ndarray[np.float32_t, ndim=1] out_audio):
+      self.thisptr.ArrayProcessCore(<float*>in_audio.data, <float*>out_audio.data)
 
   def PyFreeProcInst(self):
       self.thisptr.FreeProcInst()
