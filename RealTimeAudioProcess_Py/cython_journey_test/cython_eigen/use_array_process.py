@@ -33,12 +33,10 @@ for i in range(4):
 out_single_ch_audio = np.zeros(160, dtype=np.float32)
 print out_single_ch_audio.dtype, out_single_ch_audio.ndim
 
-
+print in_multi_chs_audio.shape, in_multi_chs_audio.dtype, out_single_ch_audio.dtype, out_single_ch_audio.shape
 x.PyArrayProcessCore(in_multi_chs_audio, out_single_ch_audio)
 
 
 x.PyFreeProcInst()
-
-
 
 

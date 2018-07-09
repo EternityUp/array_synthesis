@@ -12,6 +12,7 @@ cdef extern from "./inc/array_process_wrapper.h":
         void FreeProcInst()
         float **in_chs_audio_data
         float *out_ch_audio_data
+        float out_ch_audio_data_array[160]
 
 
 cdef class pyArrayProcessSynthesis:
@@ -35,6 +36,11 @@ cdef class pyArrayProcessSynthesis:
 
   def PyArrayProcessCore(self, np.ndarray[np.float32_t, ndim=2] in_audio, np.ndarray[np.float32_t, ndim=1] out_audio):
       self.thisptr.ArrayProcessCore(<float*>in_audio.data, <float*>out_audio.data)
+      frame_len = in_audio.shape[1]
+      for i in range(frame_len):
+          out_audio[i] = self.thisptr.out_ch_audio_data_array[i]
+      return out_audio
+
 
   def PyFreeProcInst(self):
       self.thisptr.FreeProcInst()

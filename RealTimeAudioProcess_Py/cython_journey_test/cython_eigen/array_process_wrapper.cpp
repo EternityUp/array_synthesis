@@ -43,7 +43,7 @@ void ArrayProcessSynthesis::ArrayProcessCore(float *in_multi_chs_data, float *ou
 {
     printf("core of array singal processing algorithms\n");
 
-/*
+
     for (int i = 0; i < kNumChannels; i++)
     {
       for (int j = 0; j < kFrameLen; j++)
@@ -51,25 +51,21 @@ void ArrayProcessSynthesis::ArrayProcessCore(float *in_multi_chs_data, float *ou
           int index = i * kFrameLen + j;
           in_chs_audio_data[i][j] = in_multi_chs_data[index];
         }
-      printf("in_chs_audio_data[%d][0]=%f, in_chs_audio_data[%d][1]=%f\n",
-      i, in_chs_audio_data[i][0], i, in_chs_audio_data[i][1]);
+      // printf("in_chs_audio_data[%d][0]=%f\n",i, in_chs_audio_data[i][1]);
     }
-*/
+
 
     ProcCoreMicArrayProcSingleOut(&process_inst, in_chs_audio_data, out_ch_audio_data);
 
-/*
-    for (int i = 0; i < kBlockLen; i++)
-      printf("process_inst.window[%d]=%f\n", i,  process_inst.window[i]);
-*/
 
-/*
+
     for (int i = 0; i < kFrameLen; i++)
     {
-      printf("out_ch_audio_data[%d]=%f, out_ch_audio_data[%d]=%f\n",
-      i, out_ch_audio_data[i], i, out_ch_audio_data[i]);
+      out_ch_audio_data_array[i] = out_ch_audio_data[i];
+      // printf("out_ch_audio_data_array[%d]=%f\n", i, out_ch_audio_data[i]);
     }
-*/
+
+
 }
 
 

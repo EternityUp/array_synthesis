@@ -13,73 +13,34 @@
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$ctypes_test.coverage" NAME="ctypes_test Coverage Results" MODIFIED="1530584550727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$use_test.coverage" NAME="use_test Coverage Results" MODIFIED="1530942444601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cython_journey_test/cython_test" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$audio_recorder_wrapper.coverage" NAME="audio_recorder_wrapper Coverage Results" MODIFIED="1530512308020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$array_recorded_file_process.coverage" NAME="array_recorded_file_process Coverage Results" MODIFIED="1531121617478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$ctypes_pointer.coverage" NAME="ctypes_pointer Coverage Results" MODIFIED="1530699676411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$record_to_wav_file.coverage" NAME="record_to_wav_file Coverage Results" MODIFIED="1530514148188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$test_eigen_types.coverage" NAME="test_eigen_types Coverage Results" MODIFIED="1530788833332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$xmos_real_time_audio_process_recognition.coverage" NAME="xmos_real_time_audio_process_recognition Coverage Results" MODIFIED="1531128291821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$callback_mode_audio_play.coverage" NAME="callback_mode_audio_play Coverage Results" MODIFIED="1530503073416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$real_time_audio_record.coverage" NAME="real_time_audio_record Coverage Results" MODIFIED="1530501843148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$python_call_eigen.coverage" NAME="python_call_eigen Coverage Results" MODIFIED="1530784241750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$real_time_audio_process_recognition_no_process.coverage" NAME="real_time_audio_process_recognition_no_process Coverage Results" MODIFIED="1531125007097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$sound_card_info.coverage" NAME="sound_card_info Coverage Results" MODIFIED="1530501473635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$wave_module_info.coverage" NAME="wave_module_info Coverage Results" MODIFIED="1530514827343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$array_synthesis_definitions.coverage" NAME="array_synthesis_definitions Coverage Results" MODIFIED="1530761057126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$call_shared_library_test.coverage" NAME="call_shared_library_test Coverage Results" MODIFIED="1530942349830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$test_inverter.coverage" NAME="test_inverter Coverage Results" MODIFIED="1530783425341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python" />
-    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$real_time_audio_process_recognition.coverage" NAME="real_time_audio_process_recognition Coverage Results" MODIFIED="1530526173170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$array_process_synthesis_test.coverage" NAME="array_process_synthesis_test Coverage Results" MODIFIED="1530700237909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$array_process_synthesis_test.coverage" NAME="array_process_synthesis_test Coverage Results" MODIFIED="1531105935773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$real_time_audio_process_recognition.coverage" NAME="real_time_audio_process_recognition Coverage Results" MODIFIED="1531125027603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$block_mode_audio_play.coverage" NAME="block_mode_audio_play Coverage Results" MODIFIED="1530682908654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$sound_recorder.coverage" NAME="sound_recorder Coverage Results" MODIFIED="1530503820752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$Doctests_in_audio_recorder_wrapper.coverage" NAME="Doctests in audio_recorder_wrapper Coverage Results" MODIFIED="1530256455782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$use_array_process.coverage" NAME="use_array_process Coverage Results" MODIFIED="1531042447372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cython_journey_test/cython_eigen" />
+    <SUITE FILE_PATH="coverage/RealTimeAudioProcess_Py$use_array_process.coverage" NAME="use_array_process Coverage Results" MODIFIED="1531123453974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cython_journey_test/cython_eigen" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="use_array_process.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/use_array_process.py">
+      <file leaf-file-name="xmos_real_time_audio_process_recognition.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xmos_real_time_audio_process_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="array_process.pyx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/array_process.pyx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="array_process_wrapper.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/array_process_wrapper.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="array_process_wrapper.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/inc/array_process_wrapper.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="133">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -96,6 +57,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>PaContinue</find>
+      <find>processed_frame</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -109,22 +71,24 @@
         <option value="$PROJECT_DIR$/audio_recorder_wrapper.py" />
         <option value="$PROJECT_DIR$/record_to_wav_file.py" />
         <option value="$PROJECT_DIR$/wave_module_info.py" />
-        <option value="$PROJECT_DIR$/real_time_audio_process_recognition.py" />
         <option value="$PROJECT_DIR$/real_time_audio_process_recognition_no_process.py" />
         <option value="$PROJECT_DIR$/call_shared_library_test.py" />
         <option value="$PROJECT_DIR$/ctypes_test.py" />
         <option value="$PROJECT_DIR$/ctypes_pointer.py" />
-        <option value="$PROJECT_DIR$/array_process_synthesis_test.py" />
         <option value="$PROJECT_DIR$/array_synthesis_definitions.py" />
         <option value="$PROJECT_DIR$/python_call_eigen.py" />
         <option value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/pyinverter/test_eigen_types.py" />
         <option value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_eigen_types.py" />
         <option value="$PROJECT_DIR$/cython_journey_test/cython_test/setup.py" />
         <option value="$PROJECT_DIR$/cython_journey_test/cython_eigen/setup.py" />
+        <option value="$PROJECT_DIR$/array_process_synthesis_test.py" />
         <option value="$PROJECT_DIR$/cython_journey_test/cython_eigen/inc/array_process_wrapper.h" />
         <option value="$PROJECT_DIR$/cython_journey_test/cython_eigen/array_process.pyx" />
-        <option value="$PROJECT_DIR$/cython_journey_test/cython_eigen/use_array_process.py" />
         <option value="$PROJECT_DIR$/cython_journey_test/cython_eigen/array_process_wrapper.cpp" />
+        <option value="$PROJECT_DIR$/array_recorded_file_process.py" />
+        <option value="$PROJECT_DIR$/cython_journey_test/cython_eigen/use_array_process.py" />
+        <option value="$PROJECT_DIR$/real_time_audio_process_recognition.py" />
+        <option value="$PROJECT_DIR$/xmos_real_time_audio_process_recognition.py" />
       </list>
     </option>
   </component>
@@ -137,17 +101,18 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="138" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="98" />
+    <option name="y" value="47" />
     <option name="width" value="1845" />
-    <option name="height" value="982" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,24 +131,10 @@
               <item name="cython_journey_test" type="462c0819:PsiDirectoryNode" />
               <item name="cython_eigen" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="RealTimeAudioProcess_Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RealTimeAudioProcess_Py" type="462c0819:PsiDirectoryNode" />
-              <item name="cython_journey_test" type="462c0819:PsiDirectoryNode" />
-              <item name="cython_eigen" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RealTimeAudioProcess_Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RealTimeAudioProcess_Py" type="462c0819:PsiDirectoryNode" />
-              <item name="cython_journey_test" type="462c0819:PsiDirectoryNode" />
-              <item name="cython_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,8 +162,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.use_array_process">
-    <configuration name="call_shared_library_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.xmos_real_time_audio_process_recognition">
+    <configuration name="array_recorded_file_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RealTimeAudioProcess_Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,13 +176,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/call_shared_library_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_recorded_file_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="python_call_eigen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="real_time_audio_process_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RealTimeAudioProcess_Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,13 +195,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_call_eigen.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/real_time_audio_process_recognition.py" />
+      <option name="PARAMETERS" value="raw_record.wav processed_record_wav" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_eigen_types" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="real_time_audio_process_recognition_no_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RealTimeAudioProcess_Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,13 +209,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swig_array_process/swig-eigen-numpy-master/python/test_eigen_types.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/real_time_audio_process_recognition_no_process.py" />
+      <option name="PARAMETERS" value="raw_record.wav" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -288,7 +239,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="use_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="xmos_real_time_audio_process_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RealTimeAudioProcess_Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,31 +247,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cython_journey_test/cython_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cython_journey_test/cython_test/use_test.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xmos_real_time_audio_process_recognition.py" />
+      <option name="PARAMETERS" value="raw_record.wav processed_record_wav xmos_out.wav" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.python_call_eigen" />
-      <item itemvalue="Python.test_eigen_types" />
-      <item itemvalue="Python.call_shared_library_test" />
       <item itemvalue="Python.use_array_process" />
-      <item itemvalue="Python.use_test" />
+      <item itemvalue="Python.array_recorded_file_process" />
+      <item itemvalue="Python.real_time_audio_process_recognition_no_process" />
+      <item itemvalue="Python.real_time_audio_process_recognition" />
+      <item itemvalue="Python.xmos_real_time_audio_process_recognition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xmos_real_time_audio_process_recognition" />
+        <item itemvalue="Python.real_time_audio_process_recognition" />
+        <item itemvalue="Python.real_time_audio_process_recognition_no_process" />
         <item itemvalue="Python.use_array_process" />
-        <item itemvalue="Python.use_test" />
-        <item itemvalue="Python.call_shared_library_test" />
-        <item itemvalue="Python.test_eigen_types" />
-        <item itemvalue="Python.python_call_eigen" />
+        <item itemvalue="Python.array_recorded_file_process" />
       </list>
     </recent_temporary>
   </component>
@@ -343,18 +294,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="138" width="1845" height="982" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.30674848" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40981734" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.30674848" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36707565" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24851751" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -363,7 +314,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="right" id="Data View" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -384,48 +335,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/ctypes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6570">
-          <caret line="365" selection-start-line="365" selection-end-line="365" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call_shared_library_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array_process_synthesis_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block_mode_audio_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call_shared_library_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array_process_synthesis_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/block_mode_audio_play.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -474,20 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/callback_mode_audio_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record_to_wav_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wave_module_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -502,24 +397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audio_recorder_wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="60" column="79" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/speech_recognition/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="322" column="54" lean-forward="true" selection-start-line="322" selection-start-column="54" selection-end-line="322" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sound_recorder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -579,13 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="2348" column="8" selection-start-line="2348" selection-start-column="8" selection-end-line="2348" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array_synthesis_definitions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -655,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/real_time_audio_process_recognition_no_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_test/matrixxfpy.pyx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -669,10 +536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array_process_synthesis_test.py">
+    <entry file="file://$PROJECT_DIR$/array_synthesis_definitions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="1463">
+          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -686,34 +553,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/array_process.pyx">
+    <entry file="file://$PROJECT_DIR$/array_process_synthesis_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
+        <state relative-caret-position="175">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#49#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/use_array_process.py">
+    <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/inc/basic_signal_processing.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record_to_wav_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback_mode_audio_play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/inc/array_process_wrapper.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="27" />
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/inc/array_info.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/inc/basic_processing_parameters.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio_recorder_wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/array_process_wrapper.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        <state relative-caret-position="278">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/array_process.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_recorded_file_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="71" column="70" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="70" />
+          <folding>
+            <element signature="e#26#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cython_journey_test/cython_eigen/use_array_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/real_time_audio_process_recognition_no_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/real_time_audio_process_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1159">
+          <caret line="107" column="97" selection-start-line="107" selection-start-column="97" selection-end-line="107" selection-end-column="97" />
+          <folding>
+            <element signature="e#26#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound_recorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmos_real_time_audio_process_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>

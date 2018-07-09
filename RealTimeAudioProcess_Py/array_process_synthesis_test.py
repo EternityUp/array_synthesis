@@ -6,7 +6,6 @@ from ctypes import *
 import os
 import sys
 import numpy as np
-from array_synthesis_definitions import *
 
 env_dist = os.environ
 

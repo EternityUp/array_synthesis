@@ -14,6 +14,7 @@ public:
   void FreeProcInst();
   float **in_chs_audio_data;
   float *out_ch_audio_data;
+  float out_ch_audio_data_array[160];
 private:
   MicArrayProcInst process_inst;
 };
