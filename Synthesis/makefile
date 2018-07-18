@@ -13,7 +13,7 @@ OBJS     := $(patsubst %.cpp, %.o, $(SRCS))
 EXCS     := synthesis_demo
 
 LINKFLAGS := -g -Wall -fPIC -std=c++11 -I $(INC_PATH1) -I $(INC_PATH2) -L $(LIBS_DIR) -lArrayShapeAnalysis \
--lFourierTransform -lAudioFileProcess -lBasicSignalProcess -lWavFileRW
+-lFourierTransform -lAudioFileProcess -lBasicSignalProcess -lWavFileRW -lAgc
 
 
 

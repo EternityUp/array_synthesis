@@ -3,7 +3,7 @@ CPPFLAGS :=  -g -std=c++11  -I /home/xzc/eigen3.3.4 -I ./inc/ -Wall -fPIC  -c
 AR       :=  ar
 ARFLAGS  :=  crv
 LD       :=  ld
-LDFLAGS  :=  -shared -L ./libs/ -lArrayShapeAnalysis -lAudioFileProcess  -lFourierTransform -lBasicSignalProcess -lWavFileRW -lm -lstdc++
+LDFLAGS  :=  -shared -L ./libs/ -lArrayShapeAnalysis -lAudioFileProcess  -lFourierTransform -lBasicSignalProcess -lWavFileRW -lAgc -lm -lstdc++
 RM       :=  rm -f 
 
 SRC_PATH  = ./src/
@@ -17,7 +17,7 @@ LIB_SO   := $(LIBS_DIR)libArrayProcessSynthesis.so
 LIB_A    := $(LIBS_DIR)libArrayProcessSynthesis.a
 EXCS     := synthesis_lib_demo
 LINKFLAGS := -g -std=c++11 -I /home/xzc/eigen3.3.4 -I ./inc/ -L $(LIBS_DIR) -Wl,-rpath=$(LIBS_DIR) -lArrayProcessSynthesis \
--lArrayShapeAnalysis -lAudioFileProcess -lWavFileRW
+-lArrayShapeAnalysis -lAudioFileProcess -lWavFileRW -lAgc
 
 
 

@@ -3,7 +3,7 @@ CPPFLAGS :=  -g -std=c++11 -I /home/xzc/eigen3.3.4 -I ./inc/ -Wall -fPIC  -c
 AR       :=  ar
 ARFLAGS  :=  crv
 LD       :=  ld
-LDFLAGS  :=  -shared
+LDFLAGS  :=  -shared -lm
 RM       :=  rm -f 
 
 SRC_PATH  = ./src/

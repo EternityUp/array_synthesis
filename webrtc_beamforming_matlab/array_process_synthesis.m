@@ -58,7 +58,7 @@ alpha = 0.99 * ones(freqbins,N); % ÓÃÓÚÆ½ºâÔëÉùÏû³ı³Ì¶ÈÓë¹ı¶É½×¶ÎÒıÈëµÄÓïÒôÊ§Õæµ
 PostSNR_Prev  = 10 .^ ( -25 / 20 ) * ones(freqbins,N); % ³õÊ¼»¯ºóÑéĞÅÔë±È:·ù¶È
 GainH1_Prev   = 10 .^ ( -25 / 20 ) * ones(freqbins,N); % ³õÊ¼»¯ÓĞÓïÒôÊ±µÄÌõ¼şÔöÒæ:·ù¶È
 Gmin = -30;   % ÎŞÓïÒôÊ±µÄ×îĞ¡ÔöÒæÖµ:dB
-
+Gainf = 10 ^ ( Gmin / 20 ) * ones(freqbins,N);
 
 
 
@@ -386,7 +386,7 @@ for i = 1 : frame_num
             
             %% doa 
             fft_in_block = alpha_doa * fft_in_block_prev + ...
-                ( 1 - alpha_doa ) * fft_in_block;
+                ( 1 - alpha_doa ) * fft_in_block .* Gainf ;
             fft_in_block_prev = fft_in_block;
             if (is_speech_frame)
                 Pf_out = zeros(Lt,1);
@@ -444,6 +444,8 @@ for i = 1 : frame_num
             end  % end of if is_speech_frame
         end  % end of if i <= NIS
         
+        
+        bf_fft_out_block = bf_fft_out_block .* Gainf;
         %% ºóÖÃÂË²¨
         %% ×Ô¹¦ÂÊÆ×¹À¼Æ
         auto_sp = bf_fft_out_block .* conj(bf_fft_out_block);
@@ -475,7 +477,7 @@ for i = 1 : frame_num
 %         final_fft_out_block = Hz .* final_fft_out_block;
         %% Æ½¾ù¶àÍ¨µÀÄÜÁ¿Æ×£¬ÀûÓÃÄ³Ò»Í¨µÀµÄÏàÎ»Æ×
         square_sp = abs(bf_fft_out_block) .^ 2;
-        avg_square_sp = mean(square_sp,2);
+        avg_square_sp = sum(square_sp,2);
         angle_sp = angle(bf_fft_out_block);
         final_fft_out_block = Hz .* sqrt(avg_square_sp) ...
             .* exp( 1j * angle_sp(:,1) );

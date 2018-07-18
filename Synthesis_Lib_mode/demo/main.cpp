@@ -238,10 +238,11 @@ namespace main_test_single_wav {
         /* validate parameters */
         ValidateParasMicArrayProc(&pProc);
 
-
+         
         /* variable for file read and write operations */
+	int16_t tmp_S16[kFrameLen] = { 0 };
         gettimeofday(&start_val, NULL);
-
+        
         while (inputfile.ReadSamples(multi_chs_frame_len, in_frame_buf_float16) == multi_chs_frame_len) {
             FloatS16ToFloat(in_frame_buf_float16, multi_chs_frame_len, in_frame_buf_float);
             Deinterleave(in_frame_buf_float, in_multi_chs_buf, kNumChannels, kFrameLen);
@@ -249,6 +250,9 @@ namespace main_test_single_wav {
             ProcCoreMicArrayProcSingleOut(&pProc, in_multi_chs_buf, out_frame_buf_float);
             /* write processed audio data into output file */
             FloatToFloatS16(out_frame_buf_float, kFrameLen, out_frame_buf_float16);
+	    agc_CvtToInt16(out_frame_buf_float16, tmp_S16, kFrameLen);
+	    agc_ProcessCore(tmp_S16, tmp_S16, pProc.agc_config);
+	    agc_CvtInt16ToFloatS16(tmp_S16, out_frame_buf_float16, kFrameLen);
             outputfile.WriteSamples(out_frame_buf_float16, kFrameLen);
         }
 

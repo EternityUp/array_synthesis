@@ -167,6 +167,7 @@ void *audio_process(void *audio_process_args)
       ProcCoreMicArrayProcSingleOut(&pProc, original_in_multi_chs_buf, out_frame_buf_float);
       // write processed audio data into output file 
       FloatToInt16_t(out_frame_buf_float, kFrameLen, out_frame_buf_int16);
+      agc_ProcessCore(out_frame_buf_int16, out_frame_buf_int16, pProc.agc_config);
       
       while(write_size_out != kFrameLen * sizeof(int16_t))
       {
